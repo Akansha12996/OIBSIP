@@ -1,92 +1,61 @@
-.outer {
-  background: #eeeeee;
-  border-radius: 20px;
-  margin: 50px 80px 30px 80px;
-  padding: 20px;
-}
-.header h1 {
-  color: #020208;
-  font-size: 54px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
-  padding: 10px;
-}
-.caption h4 {
-  font-family: consolas, sans-serif;
-  font-size: 16px;
-}
-.thumbnail { 
-  background: transparent; 
-  border: none;
-}
-.thumbnail img {
-  border-radius: 10%;
-}
-.intro p {
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: justify;
-  font-size: 17px;
-  padding: 10px;
-}
-.timeline ul {
-  list-style: none;
-  margin-left: 0;
-  padding-left: 0;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat" ,sans-serif ;
+    box-sizing: border-box;
 }
 
-.timeline li {
-  padding-left: 6em;
-  text-indent: -1em;
-  font-family: Arial, Helvetica, Sans-Serif;
-  font-size: 17px;
+body{
+    background-image:"todo.jpg";
+    background-image: linear-gradient(120deg,#cefa6d,#d6fba8);
+    min-height: 100vh;
 }
 
-.timeline li:before {
-  content: "►";
-  padding-right: 5px;
+.container{
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
 }
-.quotes h2 {
-  border: 2px #b30000 solid;
-  margin: 20px 80px 20px 80px;
-  padding: 20px;
-  font-family: Arial, verdana;
-  font-weight: bold;
-  font-size: 32px;
+
+.txtb{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgb(129, 19, 209);
+    background: none;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
 }
-.quotebox {
-  border: 2px #b30000 solid;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 5px;
+
+h3{
+    margin: 10px 0;
 }
-.quotebox:hover {
-  background-color: #412dfb;
-  color: #FFFFFF;
+
+h4{
+    font-size: 25px;
 }
-.quotebox p {
-  font-family: consolas, verdana;
-  text-align: justify;
-  font-size: 17px;
-  padding: 10px;
-  font-weight: bold;
+.task{
+    width: 100%;
+    background: rgba(220, 68, 68, 0.5);
+    padding: 18px;
+    margin: 6px 0;
+    overflow: hidden;
 }
-.reference p {
-  font-family: "Trebuchet MS", verdana;
-  font-size: 20px;
+
+.task i{
+    float: right;
+    margin-left: 20px;
+    cursor: pointer;
 }
-.reference a:hover {
-  color: #2c32f4;
+
+.comp .task{
+    background: rgba(0,0,0,0.5);
+    color: rgb(221, 15, 163);
 }
-.footer {
-  margin-right: 80px;
-  margin-left: 80px;
-}
-.footer p {
-  font-family: verdana;
-  font-size: 14px;
-  border-top: 1px #d8d8d8 solid;
-  text-align: center;
-}
-.footer a:hover {
-  color: #1ab6eb;
+
+header{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 700px;
+    margin-top: 80px;
 }
