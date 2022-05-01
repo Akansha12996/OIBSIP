@@ -1,2 +1,5 @@
-# OIBSIP
-Web development and design internship by Oasis Infobyte Tasks
+# OIBGRIP (Oasis Infobyte)
+Web Developement and Designing Intern
+
+Task 1
+
