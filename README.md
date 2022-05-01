@@ -1,5 +1,2 @@
-# OIBGRIP (Oasis Infobyte)
-Web Developement and Designing Intern
-
-Task 1
-
+# OIBGRIP-Task2-Level2
+Task 2 - Tribute Page
